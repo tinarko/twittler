@@ -21,11 +21,7 @@
     </header>
 
     <section class="container button">
-<<<<<<< HEAD
       <h4>Tweets from douglascalhoun</h4>
-=======
-      <h4> Tweets from douglascalhoun </h4>
->>>>>>> 5604212d0dbae567ebacd37f7113e2daa171a0f5
     </section>
     <section class="tweets container">
       
@@ -34,7 +30,6 @@
 
         $(document).ready(function(){
 
-<<<<<<< HEAD
           var index = streams.users.douglascalhoun.length - 1;
 
           while(index >= 0){
@@ -45,25 +40,9 @@
 
             var $tweet = $('<a></a>');
             $tweet.text(': ' + tweet.message + ' // ' + tweet.created_at);
-              //+ ' ' + jQuery.timeago(tweet.created_at));
 
             // addes below div
             $('.tweets').append($username).append($tweet).append('<br>');
-=======
-          var index = streams.users.shawndrost.length - 1;
-
-          while(index >= 0){
-            var tweet = streams.users.douglascalhoun[index];
-
-            var $username = $('<a href = "douglascalhoun.html">@douglascalhoun</a>');
-
-            var $tweet = $('<div></div>');
-            $tweet.text(': ' + tweet + ' // ' + tweet.created_at);
-              //+ ' ' + jQuery.timeago(tweet.created_at));
-
-            // addes below div
-            $('.tweets').append($username).append($tweet);
->>>>>>> 5604212d0dbae567ebacd37f7113e2daa171a0f5
 
             index -= 1;
           } 
