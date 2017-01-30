@@ -42,12 +42,20 @@
               $username.text('@'+tweet.user);
               $username.attr('href', tweet.user + '.html');
 
+<<<<<<< HEAD
               var $tweet = $('<a></a>');
+=======
+              var $tweet = $('<div></div>');
+>>>>>>> 5604212d0dbae567ebacd37f7113e2daa171a0f5
               $tweet.text(': ' + tweet.message + ' // ' + tweet.created_at);
                 //+ ' ' + jQuery.timeago(tweet.created_at));
 
               // addes below button
+<<<<<<< HEAD
               $('.tweets').append($username).append($tweet).append('<br>');
+=======
+              $('.tweets').append($username).append($tweet);
+>>>>>>> 5604212d0dbae567ebacd37f7113e2daa171a0f5
 
               index -= 1;
             } 
