@@ -59,6 +59,10 @@ body {
 	text-align: center;
 }
 
+a:visited {
+  color: white;
+}
+
 
 
 /*
@@ -76,7 +80,7 @@ body {
 }
 
 .container {
-	margin: 0 auto;
+	margin: 30px auto;
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 960px;
